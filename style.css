@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#home {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.slideshow-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideshow-container img {
+    height: 400px;
+    width: 100%;
+    display: none;
+}
+
+.slideshow-container img:first-child {
+    display: block;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+}
+
+#genres, #artists {
+    margin-bottom: 30px;
+}
+
+#genres ul, #artists ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#genres ul li, #artists ul li {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#genres ul li img, #artists ul li img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
